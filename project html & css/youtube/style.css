@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.searchBar{
+    width: 600px;
+    height: 45px;
+    background-color: black;
+    border-radius: 40px;
+}
+.middle{
+    display: flex;
+}
+.first{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.mic{
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.last{
+    display: flex;
+    /* margin: 5px; */
+    /* margin-top: 15px; */
+    align-items: center;
+    gap: 30px;
+}
+
+.content{
+    display: flex;
+}
+.menu_bar{
+    background-color: aquamarine;
+    /* height: 100%; */
+    margin: 0;
+    width: 15%;
+    padding: 10px;
+    
+}
+.videos{
+    background-color: antiquewhite;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 360px;
+    background-color: paleturquoise;
+    border-radius: 12px;
+    margin: 10px;
+    overflow: hidden;
+}
+.box{
+    
+    height: 200px;
+    background-color: black;
+}
+.tags{
+    display: flex;
+    margin: 10px;
+    gap: 30px;
+    
+}
+
+.tagBox{
+    background-color: orange;
+    padding: 7px;
+    border-radius: 12px;
+}

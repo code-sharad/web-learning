@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+
+body{
+   display: flex;
+   justify-content: center;
+   height: 100vh;
+   align-items: center;
+   flex-direction: column;
+}
+
+p{
+    font-size: large;
+}
+
+.btn{
+    margin: 1rem;
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: none;
+}
+
+.red{
+    background-color: #d55075;
+}
+
+.yellow {
+    background-color: #58a0b9;
+}
+
+.green{
+    background-color: #fa903b;
+}
+
+.purple{
+    background-color: #7794f8;
+}
+
+.btn-conatiner{
+    display: flex;
+}
+
+.gameflash{
+
+    background-color: white;
+
+}
+
+.userFlash {
+    transform: scale(0.95);
+    transition: all 300ms;
+}

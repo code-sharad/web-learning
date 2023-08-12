@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    margin: 3rem 0;
+    
+}
+
+h1{
+    font-size:3rem;
+    font-family: PP mori;
+    font-weight: 400;
+
+}
+
+#btn{
+    padding:0.75rem 1rem;
+    font-family: fira code;
+}
+
+.container{
+    margin: 0 auto;
+    background-color: black;
+    height: 50vh;
+    width: 60vw;
+}

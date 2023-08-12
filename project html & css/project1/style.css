@@ -1,0 +1,97 @@
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    filter: drop-shadow(5px 6px 18px #000);
+    animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+
+li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+li:hover{
+    transform-origin: 16px;
+    transition: ease-in 0.4s;
+    transform: scale(1.1);
+}
+
+.title:hover{
+    transition: ease-in 0.4s;
+    transform: scale(1.1);
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 200px;
+    margin: 7px;
+    background-color: rgb(247, 238, 255);
+    
+}
+
+.card:hover{
+    transition: ease-in-out 0.4s;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 20px grey;
+}
+
+#skill_title,#achiv{
+    font-size: 2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.intro .card{
+    width: 400px;
+    padding: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+}
+
+
+
+
+@-webkit-keyframes shadow-drop-2-center {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-transform: translateZ(50px);
+              transform: translateZ(50px);
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
+  @keyframes shadow-drop-2-center {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-transform: translateZ(50px);
+              transform: translateZ(50px);
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
+  
+
+
+
