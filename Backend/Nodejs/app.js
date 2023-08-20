@@ -1,4 +1,5 @@
-const http = require('http');
+// const http = require('http'); 
+import http from 'http' // for this we need to add "type":"module" in package.json file
 
 const server = http.createServer((req,res) => {
     console.log(req.url);
