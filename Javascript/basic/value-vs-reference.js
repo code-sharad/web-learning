@@ -1,5 +1,27 @@
 
 
+// Primitives are copied by their value
+// Objects are copied by their reference
+
+
+// Primiteives or Value
+
+let number = 10;
+function increase(number){ // copy of number variable is passed
+    number++;
+    console.log(number);
+}
+console.log(increase(number)); //11
+console.log(number); // 10
+
+// Object 
+let obj = {value:10}
+function increaseObj(obj){ // reference is passed
+    obj.value++;
+}
+increaseObj(obj)
+console.log(obj);
+
 
 let arr1 = ['Hi']
 let arr2 = ['Hi']
